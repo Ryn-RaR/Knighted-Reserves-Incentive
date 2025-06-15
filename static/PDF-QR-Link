@@ -1,0 +1,7 @@
+with open("static/RxR_Knighted_Reserve_Treat_Sheet.pdf", "rb") as file:
+    st.download_button(
+        label="📄 Download the RxR Knighted Reserve Treat Sheet",
+        data=file,
+        file_name="RxR_Knighted_Reserve_Treat_Sheet.pdf",
+        mime="application/pdf"
+    )
